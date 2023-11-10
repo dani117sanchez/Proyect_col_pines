@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #2D1084;
+}
+
+.direccion {
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    margin-top: 3%;
+}
+#isesion {
+    border-radius: 50px;
+    border: none;
+    font-weight: 500;
+    background-color: #E3FF55;
+    color: #000;
+    font-size: 17px;
+    padding: 12px;
+}
+
+
+.direccion h1 {
+    color: #fff;
+    display: flex;
+}
+
+.direccion a {
+    color: #E3FF55;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.espacios span {
+    font-size: 25px;
+
+}
+
+
+.contenedor {
+    max-width: 120rem;
+    /*establece el ancho maximo de un elemento*/
+    /* margin-top: 0;
+    margin-left: auto;
+    margin-bottom: 0;
+    margin-right: auto; */
+    margin: 0 auto;
+}
+
+.navegador a {
+    margin: 2rem;
+}
+
+.centrar a {
+    text-align: center;
+
+}
+
+.button--Login-Register {
+    margin: 4px;
+    width: 120px;
+    height: 35px;
+}
+
+.espacios {
+    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto 20rem;
+    column-gap: 1rem;
+    position: absolute;
+    top: 25%;
+    flex-direction: column;
+    width: 80vw;
+    padding-left: 100px;
+    color: #fff;
+    background-color: transparent;
+}
+
+.espacios button {
+    margin-top: 10%;
+    width: 300px;
+    height: 60px;
+    border-radius: 50px;
+    border: none;
+    font-weight: 700;
+    background-color: #E3FF55;
+    cursor: pointer;
+}
+
+.espacios h2 {
+    font-size: 50px;
+    width: 500px;
+}
+
+.espacios p {
+    padding-bottom: 20px;
+}
+
+.img-main {
+    display: block;
+
+}
+.message_home{
+    display: inline-block;
+    line-height: 1;
+    margin-top: 6%;
+    margin-bottom: 4%;
+}
+
+.registro-btn{
+    padding: 2%;
+}
